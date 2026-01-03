@@ -73,30 +73,31 @@ D) 文档/规范
 
 ## 4. 仓库结构（Repo Structure）
 
+```text
 .
-├── assets/                 traits 素材库（分层 PNG）
-│   ├── background/
-│   ├── body/
-│   ├── eyes/
-│   ├── mouth/
-│   ├── hair/
-│   ├── accessory/
-│   └── ...
+├── assets/
+│   └── traits/                 # 素材库（分层 PNG）
+│       ├── background/
+│       ├── body/
+│       ├── eyes/
+│       ├── mouth/
+│       ├── hair/
+│       └── accessory/
 ├── config/
-│   ├── layers.json         图层顺序定义
-│   ├── rarity.json         稀有度权重表
-│   └── rules.json          冲突/排除/依赖规则
+│   ├── layers.json             # 图层顺序定义
+│   ├── rarity.json             # 稀有度权重表
+│   └── rules.json              # 冲突/排除/依赖规则
 ├── scripts/
-│   ├── generate.*          生成器入口（Node 或 Python）
-│   ├── preview.*           预览/抽样工具
-│   └── validate.*          校验工具（尺寸/命名/重复/规则）
+│   ├── generate.*              # 生成器入口（Node 或 Python）
+│   ├── preview.*               # 预览/抽样工具
+│   └── validate.*              # 校验工具（尺寸/命名/重复/规则）
 ├── output/
-│   ├── images/             生成出的图片（不建议长期提交到 git）
-│   └── metadata/           生成出的 metadata（不建议长期提交到 git）
+│   ├── images/                 # 生成出的图片（不建议长期提交到 git）
+│   └── metadata/               # 生成出的 metadata（不建议长期提交到 git）
 ├── CONTRIBUTING.md
 ├── LICENSE
 └── README.md
-
+```
 ---
 
 ## 5. 快速开始（Quick Start）
