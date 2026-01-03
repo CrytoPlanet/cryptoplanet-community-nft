@@ -3,6 +3,8 @@
 一个由社区共创的「生成式 NFT」项目：traits 素材库 + 生成脚本 + metadata + 贡献者机制（badges / allowlist）。
 第一批 NFT 主要发放给社区 OG 与贡献者（Proof-of-Contribution）。
 
+可以参考Nouns DAO的NFT - https://nouns.wtf/
+
 ---
 
 ## 1. 为什么做这个？
